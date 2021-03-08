@@ -8,7 +8,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='main.js'></script>
-    
+
 </head>
 
 <body>
@@ -25,18 +25,18 @@
     </div>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript">
-    function formSubmit(){
-        $.ajax({
-            type:'POST',
-            url:'insert.php',
-            data:$('#frmBox').serialize(),
-            success:function(response){
-                $('#success').html(response);
-            }
-        });
-        var form=document.getElementById('frmBox').reset();
-        return false;
-    }
+        function formSubmit() {
+            $.ajax({
+                type: 'POST',
+                url: 'insert.php',
+                data: $('#frmBox').serialize(),
+                success: function(response) {
+                    $('#success').html(response);
+                }
+            });
+            var form = document.getElementById('frmBox').reset();
+            return false;
+        }
     </script>
 </body>
 
