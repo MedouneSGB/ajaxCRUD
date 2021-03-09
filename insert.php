@@ -1,9 +1,9 @@
 <?php
 
-$servername="localhost";
-$username="root";
-$dbpassword="";
-$dbname="ajax";
+$servername="mysql3000.mochahost.com";
+$username="badelta2_user";
+$dbpassword="Work2020";
+$dbname="badelta2_badel";
 
 $conn=mysqli_connect($servername,$username,$dbpassword,$dbname);
 if(!$conn){
