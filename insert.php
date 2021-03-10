@@ -1,9 +1,9 @@
 <?php
 
-$servername="mysql3000.mochahost.com";
-$username="badelta2_user";
-$dbpassword="Work2020";
-$dbname="badelta2_badel";
+$servername="185.98.131.93";
+$username="sende1259763";
+$dbpassword="sendev19";
+$dbname="sende1259763";
 
 $conn=mysqli_connect($servername,$username,$dbpassword,$dbname);
 if(!$conn){
